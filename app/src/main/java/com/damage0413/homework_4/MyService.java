@@ -34,7 +34,6 @@ public class MyService extends Service {
         new Thread(){
             @Override
             public void run(){
-                int count = 0;
                 while (!quit){
                     try{
                         Thread.sleep(1000);
